@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body class="min-h-screen bg-[#f1f5f8]">
+    <header class="bg-[#fff] shadow-lg header h-12">
+      <h4 class="text-[#49a6eb] tracking-widest font-bold">Color Flipper</h4>
+      <h4
+        class="cursor-pointer hover:text-[#49a6eb] tracking-widest font-semibold"
+      >
+        Simple Hex
+      </h4>
+    </header>
+    <section>
+      <div class="grid place-items-center p-8 text-center">
+        <div
+          class="flex bg-black text-white w-96 font-bold h-12 text-center p-2 rounded shadow-sm center-text text-2xl centered"
+        >
+          <h2 class="">Background Color :</h2>
+          <h3 class="ml-2" id="indicator">#f1f5f8</h3>
+        </div>
+      </div>
+      <div class="button-container">
+        <div class="centered-button">
+          <button
+            class="w-28 py-2 border border-black rounded uppercase transparent hover:bg-black hover:text-white"
+            id="btn"
+          >
+            Click Me
+          </button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
